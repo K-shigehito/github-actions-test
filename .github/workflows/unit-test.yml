@@ -2,8 +2,7 @@ nama: 単体テストの実行
 on:
   push:
     branches:
-      - "dvelop/**"
-      - "fix/**"
+      - dvelop
 jobs:
   unit-test:
     runs-on: ubuntu-latest
