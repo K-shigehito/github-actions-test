@@ -9,7 +9,7 @@ jobs:
     name: 単体テスト
     steps:
       - name: チェックアウト
-        uses: action/checkout@v2
+        uses: actions/checkout@v2
       - name: パッケージのインストール
         run: npm ci
       - name: 単体テストの実行
