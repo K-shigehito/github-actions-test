@@ -2,7 +2,7 @@ nama: 単体テストの実行
 on:
   push:
     branches:
-      - "develop/**"
+      - "dvelop/**"
       - "fix/**"
 jobs:
   unit-test:
