@@ -3,7 +3,7 @@ on:
   push:
 jobs:
   hello-world:
-    runs-on: ubunts-latest
+    runs-on: ubuntu-latest
     steps:
       - name: echoによる出力
         run: echo "Hello, World!"
