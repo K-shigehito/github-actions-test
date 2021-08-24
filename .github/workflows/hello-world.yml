@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echoによる出力
-        run: echo "Hello, World!"
+        run: echo "Hello, cats"
