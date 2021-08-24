@@ -1,4 +1,4 @@
-nama: 単体テストの実行
+name: 単体テストの実行
 on:
   push:
     branches:
