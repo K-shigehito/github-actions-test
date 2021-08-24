@@ -2,7 +2,7 @@ name: 単体テストの実行
 on:
   push:
     branches:
-      - dvelop
+      - develop
 jobs:
   unit-test:
     runs-on: ubuntu-latest
